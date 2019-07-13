@@ -100,7 +100,7 @@ Common actions from this point include:
 - helm list:      list releases of charts
 
 Environment:
-  $HELM_HOME          set an alternative location for Helm files. By default, these are stored in ~/.helm
+  $HELM_HOME          set an alternative location for Helm files. By default, these are stored in ~/.helm3
   $HELM_DRIVER        set the backend storage driver. Values are: configmap, secret, memory
   $HELM_NO_PLUGINS    disable plugins. Set HELM_NO_PLUGINS=1 to disable plugins.
   $KUBECONFIG         set an alternative Kubernetes configuration file (default "~/.kube/config")

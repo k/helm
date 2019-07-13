@@ -182,7 +182,8 @@ func (u *Upgrade) prepareUpgrade(name string, chart *chart.Chart) (*release.Rele
 	if len(notesTxt) > 0 {
 		upgradedRelease.Info.Notes = notesTxt
 	}
-	err = validateManifest(u.cfg.KubeClient, manifestDoc.Bytes())
+	// fmt.Println("validate manifest")
+	// err = validateManifest(u.cfg.KubeClient, manifestDoc.Bytes())
 	return currentRelease, upgradedRelease, err
 }
 

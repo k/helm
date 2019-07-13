@@ -34,7 +34,7 @@ func TestRootCmd(t *testing.T) {
 		{
 			name: "defaults",
 			args: "home",
-			home: filepath.Join(homedir.HomeDir(), ".helm"),
+			home: filepath.Join(homedir.HomeDir(), ".helm3"),
 		},
 		{
 			name: "with --home set",

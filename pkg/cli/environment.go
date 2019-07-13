@@ -33,7 +33,7 @@ import (
 )
 
 // defaultHelmHome is the default HELM_HOME.
-var defaultHelmHome = filepath.Join(homedir.HomeDir(), ".helm")
+var defaultHelmHome = filepath.Join(homedir.HomeDir(), ".helm3")
 
 // EnvSettings describes all of the environment settings.
 type EnvSettings struct {
